@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h4>users form</h4>
+      <button class="header__btn">add user</button>
+    </header>
+
+    <!-- form -->
+    <form name="form" class="form">
+      <h2>add user</h2>
+      <label for="name">Full name:</label>
+      <input required name="name" type="text" />
+      <label for="username">username:</label>
+      <input required name="username" type="text" />
+      <label for="email">email:</label>
+      <input required name="email" type="email" />
+      <label for="website">website:</label>
+      <input required name="website" type="text" />
+      <label for="city">city:</label>
+      <input required name="city" type="text" />
+      <label for="street">street:</label>
+      <input required name="street" type="text" />
+      <label for="phone number">phone number:</label>
+      <input required name="phone number" type="text" />
+      <label for="zipcode">zipcode:</label>
+      <input required name="zipcode" type="number" />
+      <button class="addBtn" type="submit">add</button>
+      <button class="closeBtn">close</button>
+    </form>
+
+    <!-- table -->
+    <table class="table">
+      <tr class="table__head">
+        <th>name</th>
+        <th>username</th>
+        <th>email</th>
+        <th>website</th>
+      </tr>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
